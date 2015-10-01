@@ -1,12 +1,12 @@
 
 package contact;
 import org.springframework.context.ApplicationContext;
-import org.springframework.*;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 public class ContactDemo {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 //		Contact contact = new Contact();
@@ -20,5 +20,7 @@ public class ContactDemo {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		Person ivan =  context.getBean("person",Person.class);
+		System.out.println(ivan.getName());
+		System.out.println(ivan.getMail());
 	}
 }

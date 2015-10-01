@@ -5,5 +5,7 @@
 	<classpathentry kind="lib" path="lib/org.springframework.beans_4.1.4.20150106-RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/org.springframework.context_4.1.4.20150106-RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/org.springframework.core_4.1.4.20150106-RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Krachunov/Desktop/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Krachunov/Desktop/org.springframework.expression_4.1.4.20150106-RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

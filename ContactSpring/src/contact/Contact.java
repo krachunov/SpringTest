@@ -4,9 +4,9 @@ public class Contact {
 	private String email;
 	private String phoneNumber;
 
-	public Contact() {
-		// TODO Auto-generated constructor stub
-	}
+//	public Contact() {
+//		// TODO Auto-generated constructor stub
+//	}
 
 	public String getEmail() {
 		return email;
