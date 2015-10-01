@@ -5,14 +5,18 @@
 
 
 	<bean id="contact" class="contact.Contact">
-		<property name="email" value="soring@A.bg"></property>
+		<property name="email" value="Spring@A.bg"></property>
 		
 	</bean>
-	<bean id="person" class="contact.Person">
+	<bean id="person" class="contact.Person" scope="singleton"
+		parent="human">
 		<constructor-arg ref="contact"></constructor-arg>
 		<property name="name" value="ivan"></property>
 		<property name="age" value="39"></property>
 		<property name="contactInfo" ref="contact"></property>
 		
+	</bean>
+	<bean id="human" class="contact.Human" abstract="true">
+		<property name="gander" value="male"></property>
 	</bean>
 </beans>

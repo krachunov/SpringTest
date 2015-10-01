@@ -20,7 +20,9 @@ public class ContactDemo {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		Person ivan =  context.getBean("person",Person.class);
+		Human ivan2 =  context.getBean("human",Human.class);
 		System.out.println(ivan.getName());
 		System.out.println(ivan.getMail());
+		System.out.println(ivan.getGander());
 	}
 }

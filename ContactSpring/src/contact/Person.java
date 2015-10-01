@@ -1,6 +1,6 @@
 package contact;
 
-public class Person {
+public class Person extends Human{
 	private String name;
 	private int age;
 	private Contact contactInfo;
